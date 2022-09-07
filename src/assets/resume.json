@@ -1,0 +1,30 @@
+[
+    {
+        "fullName": "Jaya Kumar R", 
+        "address": "No 56/20, Rangaiah Street, Ayanavaram", 
+        "email": "jayakumar.ramu1201@gmail.com", 
+        "github":"gihub.com/JayaKumar01",
+        "mobileNo":"9094096530", 
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, iure architecto? Quis quisquam distinctio nemo similique molestias, nesciunt eius sunt accusamus, delectus tempora assumenda maiores laboriosam! Qui rerum itaque vero.", 
+        "workProfile":[
+                { "title": "Junior Software Developer",
+                  "name":"Virtusa Software Ltd.", 
+                  "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, iure architecto? Quis quisquam distinctio nemo similique molestias, nesciunt eius."
+                }, 
+                { "title": "Associate Engineer",
+                  "name":"Walmart Software", 
+                  "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, iure architecto? Quis quisquam distinctio nemo similique molestias, nesciunt eius."
+                }
+        ],
+        "personalProjects": [
+            {   "name": "Expense Tracker", 
+                "description":"An expense tracker is a software or application that helps to keep an accurate record of your money inflow and outflow. This is one of the best ways to get your expenses under control and bring some of the order to your finances"
+            }, 
+            {   "name": "Student Result Prediction", 
+                "description":"Student Result Prediction is an AI/ML-based web project where it will calculate the student's result based on the student's performance so that it will predict the result based on a random forest classification algorithm"
+            }
+        ],
+        "languages": ["Java", "Python", "HTML CSS", "Javascript"],
+        "interest": ["Sports", "Cooking", "Reading"]        
+    }
+]

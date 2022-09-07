@@ -1,0 +1,55 @@
+<table width="700px" height="800px" align="center">
+  <tr>
+    <td width="250px" bgcolor="1c2833" style="color: white; padding: 20px;">
+      <img src="" style="border-radius: 50%;" alt=""> 
+      <h1>Personal Details</h1> <hr>
+      <p><b>Name:</b>
+        {{resume.fullName}} <br><br> 
+        
+        <b>Address:</b> <br>
+        {{resume.address}}<br>
+        Chennai - 600023 <br><br>
+
+        <b>Email Address:</b> <br>
+        {{resume.email}}<br><br>
+
+        <b>Github: </b><br>
+        {{resume.github}} 
+      </p> 
+      <h2>Interest</h2><hr>
+      <p>{{resume.interest[0]}}</p><br>
+      <p>{{resume.interest[1]}}</p><br>
+      <p>{{resume.interest[2]}}</p><br> 
+
+      <h2>Languages</h2>
+      <p>{{resume.languages[0]}}</p>
+      <p>{{resume.languages[1]}}</p> 
+      <p>{{resume.languages[2]}}</p> 
+      <p>{{resume.languages[0]}}</p>
+    </td>
+    <td width="450px" bgcolor="#FDFEFE" style="padding: 30px;">
+      <h1>{{resume.fullName}}</h1><hr>
+      <p>{{resume.description}}</p> 
+      <h2>Work Experience</h2><hr>
+      <h3>{{resume.workProfile[0].title}}</h3> <br>
+      <h5><h3>{{resume.workProfile[0].name}}</h3> <br>
+      </h5>
+      <p>{{resume.workProfile[0].description}}</p>
+      
+      <h3>{{resume.workProfile[1].title}}</h3> <br>
+      <h5><h3>{{resume.workProfile[1].name}}</h3> <br>
+      </h5>
+      <p>{{resume.workProfile[1].description}}</p>
+
+      
+
+      <h2>Projects</h2><hr>
+      <h4>{{resume.personalProjects[1].name}}</h4>
+      <p>{{resume.personalProjects[1].description}}</p>
+      <h4>{{resume.personalProjects[1].name}}</h4>
+      <p>{{resume.personalProjects[1].description}}</p>
+
+
+    </td>
+  </tr>
+</table>
